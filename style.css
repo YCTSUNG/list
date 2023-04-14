@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+        color: blue;
+    }
+   
+.bcgd{
+width: auto;
+height:530px;
+background-color: rgb(82, 5, 5);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top: 200px;
+}
+
+.card {
+    width: 600px;
+    height: 1000px;
+}
+
+
+.block1{
+    position: relative;
+    display: inline-block;
+    width: 70%;
+}
+
+.email-icon { 
+    position: absolute; 
+    left: 3px;
+    padding-top: 3px;
+  }
+
+  .block1 input{
+    text-indent: 20px;
+    width: 100%;
+  }
+.question-icon{
+    position: absolute;
+    right: 3px;
+    padding-top: 3px;
+}
+
+.question-icon2{
+    position: absolute;
+    right: 3px;
+    padding-top: 3px;
+}
+
+ 
+
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: silver;
+    font-size: 20px;
+}
+
+button[class*=btn]{
+    
+    background-color: yellow;
+}
+
+.bcgd2{
+    width: auto;
+    height:800px;
+    background-color: rgb(82, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px
+}
+
+.card2 {
+    width: 300px;
+    height: 1000px;
+}
+
+.block2{
+    position: relative;
+    display: inline-block;
+    width: 70%;
+}
+
+.block2 input{
+    text-indent: 20px;
+    width: 100%;
+  }
+
+.email-icon2{ 
+    position: absolute; 
+    left: 3px;
+    padding-top: 3px;
+  }
+
+  .question-icon3{
+    position: absolute;
+    right: 3px;
+    padding-top: 3px;
+}
+
+.name-icon{ 
+    position: absolute; 
+    left: 3px;
+    padding-top: 3px;
+  }
+
+  .lock-icon{ 
+    position: absolute; 
+    left: 3px;
+    padding-top: 3px;
+  }
